@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardFrame"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="243.6dp"
+        android:layout_height="137.2dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewWalletBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/add_card_or_wallet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/add_card_or_wallet" />
+
+    </FrameLayout>
+</FrameLayout>

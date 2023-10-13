@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modules.category.view.AddCategoryFragment">
+
+    <ImageButton
+        android:id="@+id/imageButtonIcon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_baseline_help_24" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/imageButtonIcon"
+        android:hint="Название категории" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextName"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonDokhod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextName"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="доход" />
+
+        <RadioButton
+            android:id="@+id/radioButtonRaskhod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:clickable="true"
+            android:text="расход" />
+
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/imageViewGroup"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_baseline_notes_24" />
+
+    <TextView
+        android:id="@+id/textViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewGroup"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/imageViewGroup"
+        android:hint="группа" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#E31F1F"
+        android:text="Отмена"
+        app:cornerRadius="32dp" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="ок"
+        app:cornerRadius="32dp" />
+
+
+</RelativeLayout>

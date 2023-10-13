@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.encom.finmaster">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinMaster">
+        <activity
+            android:name=".modules.main.profile.view.HelpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".modules.main.profile.view.HelpActivity1"
+            android:exported="true"
+            android:label="@string/title_activity_help"
+            android:theme="@style/Theme.FinMaster.NoActionBar" />
+        <activity
+            android:name=".modules.accounts.listOfAccounts.view.AccountActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+
+        <activity
+            android:name=".modules.accounts.addCardOrWallet.view.AddCardOrWalletActivity"
+            android:exported="true" />
+        <activity
+            android:name=".modules.category.view.SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".modules.category.view.CategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".modules.transaction.view.TransactionActivity"
+            android:exported="true"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".modules.authentication.splashscreen.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/LightThemeTransparentStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

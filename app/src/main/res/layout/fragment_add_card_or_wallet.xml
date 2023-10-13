@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".modules.addCardOrWallet.view.AddCardOrWalletFragment">
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
+<RelativeLayout
+    android:id="@+id/relativeAddCard"
+    android:layout_width="115dp"
+    android:layout_height="115dp"
+    >
+    <ImageView
+        android:id="@+id/imageViewAddCard"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:cropToPadding="true"
+        android:foreground="?selectableItemBackground"
+        android:src="@drawable/button_add_card"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bebasneue_bold"
+        android:text="@string/card"
+        android:textColor="@color/whiteGray"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeAddWallet"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/relativeAddCard">
+        <ImageView
+            android:id="@+id/imageViewAddWallet"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:cropToPadding="true"
+            android:foreground="?selectableItemBackground"
+            android:src="@drawable/button_add_wallet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebasneue_bold"
+            android:text="@string/wallet"
+            android:textColor="@color/whiteGray"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+</LinearLayout>
+
+</RelativeLayout>

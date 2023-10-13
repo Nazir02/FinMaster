@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinMaster</string>
+    <string name="main">Main</string>
+    <string name="reports">Reports</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="errorAddSum">Enter sum</string>
+    <string name="errorAddData">Enter Data</string>
+    <string name="errorAddCategory">Enter category</string>
+    <string name="hello_blank_fragment">go home, u\'re too drunk</string>
+    <string name="add_card_or_wallet">Add card or wallet</string>
+    <string name="card">Card</string>
+    <string name="wallet">Wallet</string>
+</resources>

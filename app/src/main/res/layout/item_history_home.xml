@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    android:padding="16dp"
+    tools:context=".modules.main.history.view.HistoryFragment">
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_toStartOf="@id/textViewAmount"
+        android:layout_toLeftOf="@id/textViewAmount"
+        android:layout_toEndOf="@id/imageViewIcon"
+        android:layout_toRightOf="@id/imageViewIcon"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_toStartOf="@id/textViewDate"
+        android:layout_toLeftOf="@id/textViewDate"
+        android:layout_toEndOf="@id/imageViewIcon"
+        android:layout_toRightOf="@id/imageViewIcon"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAmount"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp" />
+</RelativeLayout>

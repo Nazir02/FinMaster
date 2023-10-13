@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".modules.main.home.view.HomeFragment">
+
+        <io.github.florent37.shapeofview.shapes.ArcView
+            android:id="@+id/arcView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:elevation="4dp"
+            android:minHeight="250dp"
+            app:shape_arc_height="20dp"
+            app:shape_arc_position="bottom">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/frgAccounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary"
+                android:minHeight="250dp" />
+
+        </io.github.florent37.shapeofview.shapes.ArcView>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/frgHomeHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/arcView"
+            android:layout_alignParentBottom="true"
+            tools:ignore="NotSibling" />
+    </RelativeLayout>
+</ScrollView>

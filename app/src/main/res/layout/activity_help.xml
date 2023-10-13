@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modules.main.profile.view.HelpActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/help" />
+
+    <TextView
+        android:id="@+id/textViewTitleHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="FINMASTER"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewSubTitleHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitleHelp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:text="Барнома барои идоракунии даромаду хароҷоти шахсӣ аз тарафи СММ ва Алгаритми нав пешкаш шудааст."
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewGroupHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSubTitleHelp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Гурӯҳи барномасозон:"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewTeacherHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewGroupHelp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="Роҳбар: Файзуллоев Абдуаҳад"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textViewStudent1Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTeacherHelp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="1) Солиев Ҷамшед"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewStudent2Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewStudent1Help"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="2) Қодиров Бахтиёр"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewStudent3Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewStudent2Help"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="3) Қодиров Назир"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewStudent4Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewStudent3Help"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="4) Шукуров Фаррух"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewHelp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:text="Барои дархосту пешниҳодҳо: itruntj@gmail.com"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>
