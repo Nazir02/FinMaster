@@ -15,11 +15,7 @@ import com.encom.finmaster.repository.sqlite.model.AccountModel
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
-/**
- * Created by ABDUAHAD FAIZULLOEV on 11,ноябрь,2021
- * abduahad.fayzulloev@gmail.com
- * http://abduahad.com/
- */
+
 class AccountsBottomShitDialog : BottomSheetDialogFragment(), View.OnClickListener {
     private lateinit var recyclerView: RecyclerView
     var isShow = false

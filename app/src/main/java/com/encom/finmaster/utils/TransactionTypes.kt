@@ -1,11 +1,6 @@
 package com.encom.finmaster.utils
 
-/**
- * Created by ABDUAHAD FAIZULLOEV on 07,ноябрь,2021
- * abduahad.fayzulloev@gmail.com
- * http://abduahad.com/
- *
- */
+
 class TransactionTypes {
     companion object{
         const val RASKHOD=1 // Расход

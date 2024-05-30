@@ -59,10 +59,6 @@ class ProfileFragment : Fragment(),View.OnClickListener {
                 val intent = Intent(requireActivity(), AccountActivity::class.java)
                 startActivity(intent)
             }
-            else if (itemData.id == 5) {
-                val intent = Intent(requireActivity(), HelpActivity::class.java)
-                startActivity(intent)
-            }
             else {
                 Toast.makeText(context, itemData.name, Toast.LENGTH_SHORT)
                     .show()

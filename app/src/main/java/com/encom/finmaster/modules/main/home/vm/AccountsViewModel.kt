@@ -8,12 +8,7 @@ import com.encom.finmaster.modules.main.home.model.AddAccountModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-/**
- * Created by ABDUAHAD FAIZULLOEV on 08,ноябрь,2021
- * abduahad.fayzulloev@gmail.com
- * http://abduahad.com/
- *
- */
+
 class AccountsViewModel : BaseViewModel() {
     fun fetchAccounts(): LiveData<ArrayList<Any>> {
         val result: MutableLiveData<ArrayList<Any>> = MutableLiveData()

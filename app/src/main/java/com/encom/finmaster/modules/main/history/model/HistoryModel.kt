@@ -1,11 +1,6 @@
 package com.encom.finmaster.modules.main.history.model
 
-/**
- * Created by ABDUAHAD FAIZULLOEV on 17,октябрь,2021
- * abduahad.fayzulloev@gmail.com
- * http://abduahad.com/
- *
- */
+
 class HistoryModel(
     var id: Int,
     var icon: String,

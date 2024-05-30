@@ -5,7 +5,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".modules.main.home.view.HomeHistoryFragment">
-
+           <TextView
+               android:id="@+id/tvEmptyMsg"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="История пусто)"
+               android:textSize="20sp"
+               android:layout_gravity="center"
+               android:visibility="gone"
+               />
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewOfHome"
             android:layout_width="match_parent"

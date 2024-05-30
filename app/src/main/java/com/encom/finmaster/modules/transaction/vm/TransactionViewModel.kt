@@ -8,12 +8,7 @@ import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
-/**
- * Created by ABDUAHAD FAIZULLOEV on 09,ноябрь,2021
- * abduahad.fayzulloev@gmail.com
- * http://abduahad.com/
- *
- */
+
 class TransactionViewModel : BaseViewModel() {
     var selectedCategory: CategoryModel? = null
     var selectedDate: String = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())

@@ -1,11 +1,6 @@
 package com.encom.finmaster.modules.transaction.model
 
-/**
- * Created by ABDUAHAD FAIZULLOEV on 07,ноябрь,2021
- * abduahad.fayzulloev@gmail.com
- * http://abduahad.com/
- *
- */
+
 class TransactionModel(var id_account: Int,
                        var id_category: Int,
                        var note: String? = null,

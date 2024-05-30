@@ -6,12 +6,7 @@ import com.encom.finmaster.modules.main.profile.model.ProfileModel
 import com.encom.finmaster.modules.transaction.model.TransactionModel
 import com.encom.finmaster.repository.sqlite.model.*
 
-/**
- * Created by ABDUAHAD FAIZULLOEV on 17,октябрь,2021
- * abduahad.fayzulloev@gmail.com
- * http://abduahad.com/
- *
- */
+
 interface MainRepository {
 
     fun getHistory(): ArrayList<HistoryModel>

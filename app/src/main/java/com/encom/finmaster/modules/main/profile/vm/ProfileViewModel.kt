@@ -7,12 +7,7 @@ import com.encom.finmaster.core.BaseViewModel
 import com.encom.finmaster.modules.main.profile.model.ProfileModel
 import kotlinx.coroutines.launch
 
-/**
- * Created by ABDUAHAD FAIZULLOEV on 17,октябрь,2021
- * abduahad.fayzulloev@gmail.com
- * http://abduahad.com/
- *
- */
+
 class ProfileViewModel : BaseViewModel() {
 
     var myDataSet: ArrayList<ProfileModel> = ArrayList()
